@@ -1,7 +1,6 @@
---{-# OPTIONS_GHC -Wall #-}
 {-# language LambdaCase, MultiWayIf #-}
 
-module Control.Slika
+module Slika
   ( todo
   , π  
   , Slika

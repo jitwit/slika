@@ -1,7 +1,7 @@
 {-# OPTIONS_GHC -Wall #-}
 {-# language LambdaCase, MultiWayIf #-}
 
-module Control.Slika.Juicy
+module Slika.Juicy
   ( fromPixel8
   , fromRGB8'
   , toRGB8'
@@ -10,7 +10,7 @@ module Control.Slika.Juicy
   ) where
 
 import Control.Lens.Internal.Context
-import Control.Slika
+import Slika
 import Codec.Picture
 import Data.Colour
 import Data.Colour.SRGB.Linear

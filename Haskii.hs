@@ -18,8 +18,8 @@ import Linear hiding (trace)
 import Data.Bool
 import Debug.Trace
 
-import Control.Slika
-import Control.Slika.Juicy
+import Slika
+import Slika.Juicy
 
 type Haskii   = B.ByteString
 
